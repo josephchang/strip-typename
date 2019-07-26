@@ -1,6 +1,6 @@
 {
   "name": "strip-typename",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strip typename property from Apollo GraphQL objects",
   "repository": "git@github.com:josephchang/strip-typename.git",
   "author": "joechang",
