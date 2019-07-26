@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stripTypename Given an Apollo GraphQL object with __typename When the __typename is stripped should not have any __typename properties 1`] = `
+Object {
+  "arrayItems": Array [
+    Object {
+      "colour": "Red",
+      "id": 1,
+      "nestedObj": Object {
+        "address": Object {
+          "city": "Springfield",
+          "line1": "742 Evergreen Terrace",
+          "state": null,
+        },
+      },
+    },
+    Object {
+      "colour": "Yellow",
+      "id": 2,
+      "nestedObj": Object {
+        "address": Object {
+          "city": "Quahog",
+          "line1": "31 Spooner Street",
+          "state": "Rhode Island",
+        },
+      },
+    },
+  ],
+  "obj": Object {
+    "integer": 1,
+    "nestedArrayItems": Array [
+      Object {
+        "name": "Nestle Toll House",
+      },
+      Object {
+        "name": "Conde Nest",
+      },
+    ],
+    "primitive": true,
+  },
+}
+`;
